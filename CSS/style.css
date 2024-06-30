@@ -73,7 +73,8 @@ a:hover {
     top: 150px;
 
 }
-.leftsection .buttons{
+
+.leftsection .buttons {
     padding: 50px 0;
 }
 
@@ -260,4 +261,73 @@ footer {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    height: 60vh;
+    width: 150vh;
+}
+
+.project-container {
+    display: flex-wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project-column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    height: 100vh;
+    width: 150vh;
+}
+
+.contact-container {
+    display: flex-wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-column {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    height: 100vh;
+    width: 150vh;
+}
+
+.services-container {
+    display: flex-wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-column {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
 }
